@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "evm-cctp-contracts",
+			"uri": "vscode-vfs://github/navalboyblue/evm-cctp-contracts"
+		},
+		{
+			"name": "navalboyblue",
+			"uri": "vscode-vfs://github/navalboyblue"
+		}
+	],
+	"settings": {}
+}

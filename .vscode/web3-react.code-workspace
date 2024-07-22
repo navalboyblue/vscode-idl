@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../web3-react"
+		},
+		{
+			"path": "../web3-react-main"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}
