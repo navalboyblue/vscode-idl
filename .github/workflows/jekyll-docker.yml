@@ -18,3 +18,8 @@ jobs:
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
         jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+              - name: Configure GitHub Pages
+                uses: actions/configure-pages@v5.0.0
+              - name: Configure GitHub Pages
+                uses: actions/configure-pages@v5.0.0
+                        
