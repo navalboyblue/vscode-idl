@@ -1,6 +1,5 @@
 {
   "root": true,
-  "ignorePatterns": ["**/*"],
   "plugins": ["@nx", "simple-import-sort", "unused-imports"],
   "overrides": [
     {
