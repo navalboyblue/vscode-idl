@@ -1,0 +1,50 @@
+{
+  "name": "samai",
+  "version": "0.3.3",
+  "description": "Pseudo-randomly generated patterns inspired by the Kente cloth tradition of Ghana",
+  "main": "dist/samai.js",
+  "scripts": {
+    "build": "webpack && cp dist/samai.web.js examples",
+    "doc": "jsdoc dist/samai.js -d ./doc/"
+  },
+  "keywords": [
+    "svg",
+    "svgjs",
+    "javascript",
+    "es2015",
+    "seedable",
+    "prng",
+    "pattern",
+    "design",
+    "african",
+    "ghana",
+    "kente"
+  ],
+  "author": "Nii Yeboah",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-es2015-webpack": "^6.4.3",
+    "eslint": "^3.9.1",
+    "eslint-loader": "^1.6.1",
+    "jsdoc": "^3.5.5",
+    "webpack": "^2.2.1"
+  },
+  "directories": {
+    "example": "examples",
+    "doc": "doc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niiyeboah/samai.git"
+  },
+  "bugs": {
+    "url": "https://github.com/niiyeboah/samai/issues"
+  },
+  "homepage": "http://samai.niiyeboah.com",
+  "dependencies": {
+    "svg.js": "^2.6.3"
+  }
+}

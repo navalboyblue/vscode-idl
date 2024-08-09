@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <title>Samai Example</title>
+</head>
+
+<body>
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/svg.js/2.6.3/svg.min.js'></script>
+    <script type='text/javascript' src='./samai.web.js'></script>
+    <script type='text/javascript'>
+        var options = {
+            date: new Date("01-18-2018"),
+            width: 400,
+            dark_colors: ["#900", "#072"],
+            light_colors: ["#AA6", "#990", "#222"],
+            fabric_enabled: true,
+            n: 37
+        }
+        var samai = new Samai(options);
+        var body = document.querySelector("body");
+        samai.getPNG().then(src => {
+            body.style.backgroundSize = samai.width + "px";
+            body.style.background = "url('" + src + "')";
+        });
+    </script>
+</body>
+
+</html>

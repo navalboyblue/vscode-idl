@@ -1,0 +1,37 @@
+/*
+@file           d:workspace/repository/vpp/module_name
+@date_m         2016-12-10
+@date_vm        2016-12-10
+@include        d:workspace/repository/vpp/A
+@producer       vpp@0.1.0
+*/
+
+import { Component } from 'vpp-position'
+import { A_f } from './A'
+
+class Dock extends Component {
+    constructor () {
+        super()
+        this.i = 0
+    }
+
+    b_click () {
+        this.i = 10
+        this.update()
+    }
+}
+
+function Dock_vm () {
+/*
+    details in ./sample.vm
+*/
+    ...
+}
+
+export function Dock_f () {
+    let m = new Dock();
+    let vm = new Dock_vm();
+    m.__vm__ = vm;
+    vm.__m__ = m;
+    return m;
+}

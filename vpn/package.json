@@ -1,0 +1,27 @@
+{
+  "name": "vpn",
+  "version": "0.0.2",
+  "description": "Node.js VPN Monitoring Library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acegik/node-vpn.git"
+  },
+  "keywords": [
+    "vpn",
+    "monitor"
+  ],
+  "author": "Acegiker",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/acegik/vpn/issues"
+  },
+  "homepage": "https://github.com/acegik/vpn#readme",
+  "dependencies": {
+    "bluebird": "^3.1.1",
+    "lodash": "^3.10.1"
+  }
+}

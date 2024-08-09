@@ -1,0 +1,6 @@
+[submodule "sovereign-landing-zone(1)"]
+	path = sovereign-landing-zone(1)
+	url = https://navalboyblue@github.com/Azure/sovereign-landing-zone
+[submodule "sovereign-landing-zone"]
+	path = sovereign-landing-zone
+	url = git@github.com:Azure/sovereign-landing-zone.git

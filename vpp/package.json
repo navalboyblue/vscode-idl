@@ -1,0 +1,32 @@
+{
+  "name": "vpp",
+  "version": "0.1.0",
+  "description": "well designed front-end framework",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lemoi/vpp.git"
+  },
+  "keywords": [
+    "vpp"
+  ],
+  "author": "Wyatt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lemoi/vpp/issues"
+  },
+  "homepage": "https://github.com/lemoi/vpp#readme",
+  "dependencies": {
+    "rollup": "^0.37.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.18.0",
+    "rollup-plugin-babel": "^2.7.1"
+  }
+}

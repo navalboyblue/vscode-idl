@@ -1,0 +1,24 @@
+{
+  "name": "workstation",
+  "version": "0.5.0",
+  "repository": "nuxt/workstation",
+  "license": "MIT",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "bin": {
+    "workstation": "bin/workstation.js"
+  },
+  "dependencies": {
+    "@workstation/proxy": "0.5.0",
+    "arg": "^4.1.0",
+    "chokidar": "^3.0.0",
+    "consola": "^2.6.0",
+    "debounce": "^1.2.0",
+    "defu": "^0.0.1",
+    "hable": "^1.0.1"
+  },
+  "gitHead": "3668504e2f5cd79237bd21ab51107aa57fe1df05"
+}

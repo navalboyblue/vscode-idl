@@ -1,0 +1,56 @@
+import A from "../A";
+
+
+class sample_m extends Vpp {
+
+    constructor () {
+        this.i = 0
+    }
+
+    b_click () {
+        this.i = 10
+        this.update()
+    }
+
+}
+function sample_vm () {
+    return new ViewModel({
+    n: new Value(function(){return [1,2,3];})
+    }, [
+    "\n    ",
+    new Value(function(){return !(this.get("i")>1)?"Hi, come here":"Hi, see you agin";}),
+    "\n    ",
+    new Element("div", {
+    onClick: new Value(function(){return this.get("b_click");})
+    }),
+    "\n    ",
+    new Define("a", [
+    "\n    ",
+    new For("i", new Value(function(){return this.get("n");}), [
+    "\n        ",
+    new Element("A", {
+    date: "2016-12-10",
+    id: new Value(function(){return this.get("i");})
+    }),
+    "\n    "
+    ])
+    ]),
+    "\n    ",
+    new If([[
+    new Value(function(){return 1;}), [
+    "\n        ",
+    new Element("A"),
+    "\n    "
+    ]], [
+    new Value(function(){return 2;}), [
+    "\n        ",
+    new Element("B"),
+    "\n    "
+    ]], [
+    "__else__", [
+    "\n    "
+    ]]
+    ]),
+    "\n"
+    ]);
+}

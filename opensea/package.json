@@ -1,0 +1,24 @@
+{
+  "name": "opensea",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "opensea": "./index.js"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "author": "Chris Villarreal",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cli-table3": "^0.6.0",
+    "colors": "^1.4.0",
+    "lodash.get": "^4.4.2",
+    "ora": "^5.4.0"
+  }
+}
