@@ -4,3 +4,6 @@
 [submodule "sovereign-landing-zone"]
 	path = sovereign-landing-zone
 	url = git@github.com:Azure/sovereign-landing-zone.git
+[submodule "vscode-idl"]
+	path = vscode-idl
+	url = "https://workingcopy.app/git/#repo=https://github.com/navalboyblue/vscode-idl"
